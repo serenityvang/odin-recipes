@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.menu-container{
+    height: 1080px;
+    width: 634px;
+    background-color: #F4EDE6;
+    margin-left: 500px;
+    
+}
+
+.logo{
+    height: 180px;
+    width: 190px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.menu-title{
+    text-align: center;
+    font-size: 48px;
+    color: #6F85C4;
+    
+}
+
+#coffee {
+    font-size: 32px;
+    color: #6F85C4;
+    margin-left: 80px;
+}
+
+#matcha {
+    font-size: 32px;
+    color: #6F85C4;
+    margin-left: 80px;
+}
+
+#addons {
+    font-size: 32px;
+    color: #6F85C4;
+    margin-left: 80px;
+}
+
+.coffee-drinks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.coffee-drinks li {
+    margin-left: 80px;
+    color: #6F85C4;
+    font-style: oblique;
+    font-size: 14px;
+}
+
+.matcha-drinks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.matcha-drinks li {
+    margin-left: 80px;
+    color: #6F85C4;
+    font-style: oblique;
+    font-size: 14px;
+}
