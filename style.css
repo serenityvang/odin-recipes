@@ -4,7 +4,7 @@ body{
 }
 
 .menu-container{
-    height: 1080px;
+    height: 1000px;
     width: 634px;
     background-color: #F4EDE6;
     margin-left: 500px;
@@ -12,37 +12,34 @@ body{
 }
 
 .logo{
-    height: 180px;
-    width: 190px;
-    padding-top: 30px;
-    padding-left: 10px;
+    height: 160px;
+    width: 180px;
+    padding-top: 25px;
+    padding-left: 220px;
+    
 }
 
-.menu-title{
-    text-align: center;
-    font-size: 48px;
+.menu-header {
+    display: grid;
+    grid-template-columns: 1fr 90px 90px;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.temp-labels{
+    display: contents;
     color: #6F85C4;
-    
+}
+
+.temp-labels h4 {
+    text-align: center;
+    font-weight: bold;
 }
 
 #coffee {
     font-size: 32px;
     color: #6F85C4;
-    margin-left: 80px;
 }
-
-#matcha {
-    font-size: 32px;
-    color: #6F85C4;
-    margin-left: 80px;
-}
-
-#addons {
-    font-size: 32px;
-    color: #6F85C4;
-    margin-left: 80px;
-}
-
 .coffee-drinks ul{
     list-style-type: none;
     margin: 0;
@@ -50,10 +47,28 @@ body{
 }
 
 .coffee-drinks li {
-    margin-left: 80px;
+    margin: 0 40px;
     color: #6F85C4;
     font-style: oblique;
     font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 90px 90px;
+    align-items: center;
+    
+}
+
+.coffee-drinks h3{
+    margin: 8px;
+}
+
+.price-hot, .price-cold {
+    text-align: center;
+    margin: 0;
+}
+
+#matcha {
+    font-size: 32px;
+    color: #6F85C4;
 }
 
 .matcha-drinks ul{
@@ -63,8 +78,51 @@ body{
 }
 
 .matcha-drinks li {
-    margin-left: 80px;
+    margin: 0 40px;
     color: #6F85C4;
     font-style: oblique;
     font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 90px 90px;
+    align-items: center;
+}
+
+.matcha-drinks h3{
+    margin: 8px;
+}
+
+#addons {
+    font-size: 32px;
+    color: #6F85C4;
+}
+
+.addons-items h3{
+    margin: 8px;
+}
+
+.addons-header{
+    grid-template-columns: 1fr 180px;
+    margin: 0 40px;
+    display: grid;
+    align-items: center;
+}
+
+.addons-items ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.addons-items li {
+    margin: 0 40px;
+    color: #6F85C4;
+    font-style: oblique;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 180px;
+    align-items: center;
+}
+
+.price-addon{
+    text-align: center;
 }
