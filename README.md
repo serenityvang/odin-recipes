@@ -12,11 +12,11 @@ The concept for this project comes from my new interest in matcha and coffee. I 
 
 ## To-Do
 
-[X] Create an HTML structure of the menu design
-[X] Style the HTML with CSS to match design in Figma
-[] Add relative links to each drink on the menu
-[] Create HTML structure for each drink recipe
-[] Style each recipe page
+- [X] Create an HTML structure of the menu design
+- [X] Style the HTML with CSS to match design in Figma
+- [] Add relative links to each drink on the menu
+- [] Create HTML structure for each drink recipe
+- [] Style each recipe page
 
 ## Skills Practiced
 
