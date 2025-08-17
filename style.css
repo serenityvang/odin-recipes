@@ -14,7 +14,7 @@ body{
 .logo{
     height: 160px;
     width: 180px;
-    padding-top: 25px;
+    padding-top: 80px;
     padding-left: 220px;
     
 }
@@ -23,7 +23,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 90px 90px;
     align-items: center;
-    margin: 0 40px;
+    margin: 0 100px;
+    margin-bottom: -1.5rem;
 }
 
 .temp-labels{
@@ -39,6 +40,8 @@ body{
 #coffee {
     font-size: 32px;
     color: #6F85C4;
+    text-decoration: underline;
+    text-decoration-color: #91A6E0;
 }
 .coffee-drinks ul{
     list-style-type: none;
@@ -47,7 +50,7 @@ body{
 }
 
 .coffee-drinks li {
-    margin: 0 40px;
+    margin: 0 100px;
     color: #6F85C4;
     font-style: oblique;
     font-size: 14px;
@@ -66,9 +69,28 @@ body{
     margin: 0;
 }
 
+.coffee-drinks a {
+    text-decoration: none;
+    color:#6F85C4
+}
+
+.coffee-drinks a:visited{
+    color: #6F85C4;
+}
+
+.coffee-drinks a:hover{
+    color:#91A6E0;
+}
+
+.coffee-drinks p {
+    font-size: 16px;
+}
+
 #matcha {
     font-size: 32px;
     color: #6F85C4;
+    text-decoration: underline;
+    text-decoration-color: #91A6E0;
 }
 
 .matcha-drinks ul{
@@ -78,7 +100,7 @@ body{
 }
 
 .matcha-drinks li {
-    margin: 0 40px;
+    margin: 0 100px;
     color: #6F85C4;
     font-style: oblique;
     font-size: 14px;
@@ -91,9 +113,28 @@ body{
     margin: 8px;
 }
 
+.matcha-drinks a {
+    text-decoration: none;
+    color:#6F85C4
+}
+
+.matcha-drinks a:visited{
+    color: #6F85C4;
+}
+
+.matcha-drinks a:hover{
+    color:#91A6E0
+}
+
+.matcha-drinks p {
+    font-size: 16px;
+}
+
 #addons {
     font-size: 32px;
     color: #6F85C4;
+    text-decoration: underline;
+    text-decoration-color: #91A6E0;
 }
 
 .addons-items h3{
@@ -101,10 +142,11 @@ body{
 }
 
 .addons-header{
-    grid-template-columns: 1fr 180px;
-    margin: 0 40px;
     display: grid;
+    grid-template-columns: 1fr 90px 90px;
     align-items: center;
+    margin: 0 100px;
+    margin-bottom: -1.5rem;
 }
 
 .addons-items ul{
@@ -114,15 +156,16 @@ body{
 }
 
 .addons-items li {
-    margin: 0 40px;
+    margin: 0 100px;
     color: #6F85C4;
     font-style: oblique;
     font-size: 14px;
     display: grid;
-    grid-template-columns: 1fr 180px;
+    grid-template-columns: 1fr 90px 90px;
     align-items: center;
 }
 
-.price-addon{
-    text-align: center;
+.addons-items p {
+    font-size: 16px;
 }
+

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is part of the **Foundations Course** from [The Odin Project](https://ww.theodinproject.com/). It is designed to practice HTML fundamentals, incluing elements, tags, text formatting, lists, links, and images.
+This project is part of the **Foundations Course** from [The Odin Project](https://www.theodinproject.com/). It is designed to practice HTML fundamentals, incluing elements, tags, text formatting, lists, links, and images.
 
 While the original project focuses on food recipes, I decided to create **drink recipes menu** instead. I will also be adding CSS stling to improve the presentation, even though this section of the course primarily focuses on HTML.
 
@@ -14,8 +14,8 @@ The concept for this project comes from my new interest in matcha and coffee. I 
 
 - [X] Create an HTML structure of the menu design
 - [X] Style the HTML with CSS to match design in Figma
-- [] Add relative links to each drink on the menu
-- [] Create HTML structure for each drink recipe
+- [X] Add relative links to each drink on the menu
+- [X] Create HTML structure for each drink recipe
 - [] Style each recipe page
 
 ## Skills Practiced
